@@ -1,0 +1,320 @@
+/*헤더*/
+
+header {
+    border: 3px solid red;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logo {
+    position: relative;
+    right: 4rem;
+    width: 250px;
+}
+
+#a1 {
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 5rem;
+    right: 2rem;
+    font-size: 2.5rem;
+}
+
+/*헤더끝*/
+
+/*본문*/
+
+.container {
+    border: 3px solid red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rows {
+    border: 3px solid green;
+    display: flex;
+    height: 33rem;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+article {
+    padding: 22px;
+}
+
+#control {
+    position: relative;
+    bottom: 6rem;
+    text-align: right;
+}
+
+nav { /*네비게이션태그*/
+    padding-right: 2rem;
+    border: 3px solid black;
+    display: flex;
+    flex-shrink: 0;
+    
+    background-color: white;
+    line-height: 66px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+na {
+    padding-right: 11rem;
+    border: 1px solid black;
+    flex-basis: 11.4rem;
+    flex-shrink: 0;
+    height: 33rem;
+    background-color: white;
+    line-height: 66px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.co {
+    border: 3px solid tomato;
+    
+    /*
+    flex-basis: 222rem;
+    flex-shrink: 6;*/
+    
+}
+#subu{
+    width: 20px;
+}
+/*본문끝*/
+
+footer {
+    border: 3px solid yellow;
+}
+
+/*배경색바꾸기버튼*/
+
+body.white {
+    background-color: white;
+    color: black;
+}
+
+body.black {
+    background-color: black;
+    color: white;
+}
+
+/*배경색바꾸기버튼 끝*/
+
+pp {
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+#main {
+    border: 1px solid red;
+    width: 
+    position: relative;
+
+}
+
+#ss {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    /* flex-shrink: 0; 화면이 줄어들어도 크기가 줄어들지 안는다.*/
+    float: right;
+    
+}
+
+#noo {
+    display: inline;
+    border: 1px solid red;
+    position: relative;    
+}
+
+
+#lota {
+    position: relative;
+    
+}
+
+#sso {
+    position: relative;
+    bottom: 1rem;  
+}
+
+#useer {
+    position: relative;
+    left: 4.3rem;
+    bottom: 1.5rem;
+}
+
+#pp {
+    border: 1px solid yellow;
+}
+
+#rank {
+    border: 1px solid red;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#exinfo {
+    margin-top: 1rem;
+    width: 33rem;
+    height: 5rem;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+#exinfo:hover {
+    margin-top: 1rem;
+    width: 33rem;
+    height: 5rem;
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+.soso {
+    margin-right: 1.5rem;
+}
+
+#exinfo1 {
+    margin-top: 1rem;
+    width: 27rem;
+    height: 5rem;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+#exinfo1:hover {
+    margin-top: 1rem;
+    width: 27rem;
+    height: 5rem;
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+#exinfo2 {
+     margin-top: 1rem;
+    width: 27rem;
+    height: 5rem;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+#exinfo2:hover {
+     margin-top: 1rem;
+    width: 27rem;
+    height: 5rem;
+    border: 3px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+#inf {
+    border: 1px solid green;
+    width: 44rem;
+    line-height: 2rem;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 99rem;
+}
+#ream{
+    overflow:scroll;
+}
+#one{
+     border-bottom: 1px solid black;
+}
+
+#chat {
+    border: 1px solid blue;
+    width: 37rem;
+    height: 27rem;
+    display: flex;
+    flex-basis: 99rem;
+}
+
+#riv {
+    border: 1px solid pink;
+    height: 33rem;
+    width: 37rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+#riv>form {
+    border: 1px solid pink;
+    height: 29rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+#riv>form>input{
+    margin-top: 1rem;
+}
+#star {
+    float: right;
+}
+#pro {
+    float: left;
+    width: 5.3rem;
+    float: left;
+    height: 6rem;
+}
+
+#contents {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#inte {
+    border: 1px solid red;
+    margin-right: 5rem;
+    width: 48rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#toto {
+    border: 1px solid green;
+    overflow:scroll;
+    
+    height: 20rem; 
+}
+
+ap {
+    border:1px solid grey;
+    margin-bottom: 1rem;
+}
+
+#soku {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#soku>form{
+    text-decoration: none;
+    border:1px solid gray; 
+    height: 5rem;
+    margin-bottom:2rem;
+    
+}
+
+
